@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Push</title>
-</head>
-<body>
-    <h1>IndexOf</h1>
-    <p>The indexOf() method of Array instances returns the first index at which
-    a given element can be found in the array, or -1 if it is not present.</p>
-    <code>
-        const beasts = ["ant", "bison", "camel", "duck", "bison"];
+IndexOf
+The indexOf() method of Array instances returns the first index at which
+a given element can be found in the array, or -1 if it is not present.
 
-        console.log(beasts.indexOf("bison"));
-        // Expected output: 1
-    </code>
-</body>
-</html>
+    const beasts = ["ant", "bison", "camel", "duck", "bison"];
+
+    console.log(beasts.indexOf("bison"));
+    // Expected output: 1
