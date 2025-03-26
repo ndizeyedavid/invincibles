@@ -2,7 +2,23 @@ IndexOf
 The indexOf() method of Array instances returns the first index at which
 a given element can be found in the array, or -1 if it is not present.
 
+example:
     const beasts = ["ant", "bison", "camel", "duck", "bison"];
 
     console.log(beasts.indexOf("bison"));
     // Expected output: 1
+
+syntax:
+    indexOf(searchElement)
+    indexOf(searchElement, fromIndex)
+
+//searchElement
+//Element to locate in the array.
+//fromIndex (Optional)
+//Zero-based index at which to start searching, converted to an integer.
+
+    //using the last method
+
+    // Start from index 2
+    console.log(beasts.indexOf("bison", 2));
+    // Expected output: 4
