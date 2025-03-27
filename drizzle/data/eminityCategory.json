@@ -1,0 +1,7 @@
+[
+  { "name": "Interior Amenities", "id": "1" },
+  { "name": "Kitchen Amenities", "id": "2" },
+  { "name": "Bathroom Amenities", "id": "3" },
+  { "name": "Outdoor & Security Features", "id": "4" },
+  { "name": "Community Amenities", "id": "5" }
+]
