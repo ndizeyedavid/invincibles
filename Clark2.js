@@ -1,5 +1,6 @@
 function finditem(arr){
-    var item=["Banana","Apple","Orange"]
-    console.log("Found item at position",item.indexOf(arr))
+    var item=["Banana","Apple","Orange"];
+    var index=item.indexOf(arr);
+    return "Found item at position " + index;
 }
-finditem("Banana")
+console.log(finditem("Banana"))
